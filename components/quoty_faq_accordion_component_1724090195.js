@@ -6,7 +6,7 @@
 Vue.component("quoty_faq_accordion_component_1724090195", {
     template: `
     <section class="py-8 bg-white pl-4">
-        <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+        <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions About Our Cat Marketplace</h2>
         <!-- Accordion -->
         <div class="space-y-3">
             <!-- Accordion item -->
@@ -35,10 +35,10 @@ Vue.component("quoty_faq_accordion_component_1724090195", {
     data() {
         return {
             terms: [
-                { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-                { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-                { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-                { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false },
+                { title: "How does the cat marketplace work?", description: "Our cat marketplace connects cat breeders and sellers with potential buyers. Users can browse listings, view cat profiles, and contact sellers directly through our platform to arrange purchases or adoptions.", expanded: false },
+                { title: "What types of cats are available on your marketplace?", description: "We offer a wide variety of cats, including purebred, mixed breed, and rescue cats. You can find kittens, adult cats, and senior cats of various breeds, colors, and personalities to suit your preferences.", expanded: false },
+                { title: "How do I ensure the cat I'm interested in is healthy?", description: "All sellers on our platform are required to provide up-to-date health certificates and vaccination records for their cats. We also encourage buyers to schedule vet check-ups before finalizing any purchase or adoption.", expanded: false },
+                { title: "What if I have issues with my cat purchase?", description: "We have a customer support team dedicated to resolving any issues that may arise during or after your cat purchase. We also offer a satisfaction guarantee and can assist with returns or exchanges in certain situations.", expanded: false },
             ],
         };
     },
